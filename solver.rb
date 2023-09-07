@@ -1,7 +1,7 @@
 class Solver
   def factorial(arg1)
-    raise ArgumentError, 'Input must be a non-negative integer' if arg1 < 0
-    return 1 if arg1 == 0
+    raise ArgumentError, 'Input must be a non-negative integer' if arg1.negative
+    return 1 if arg1.zero
 
     result = 1
     (1..arg1).each do |i|
@@ -14,20 +14,15 @@ class Solver
     string.reverse
   end
 
-  def fizzbuzz(n)
-    if n % 3 == 0 && n % 5 == 0
+  def fizzbuzz(number)
+    if (number % 3).zero && (number % 5).zero
       'fizzbuzz'
-    elsif n % 3 == 0
+    elsif (number % 3).zero
       'fizz'
-    elsif n % 5 == 0
+    elsif (number % 5).zero
       'buzz'
     else
       n.to_s
     end
   end
 end
-
-solver = Solver.new
-puts solver.factorial(5)
-puts solver.reverse('Hello')
-puts solver.fizzbuzz(15)
