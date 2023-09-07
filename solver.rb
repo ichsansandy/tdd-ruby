@@ -8,5 +8,8 @@ class Solver
         end
         result
     end
+    def reverse(string)
+        string.reverse
+    end
 
 end
