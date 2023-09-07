@@ -26,10 +26,10 @@ RSpec.describe Solver do
     end
   end
 
-  describe 'fizzbuz 10' do
-    it 'return 10' do
-      result = @solver.fizzbuzz(10)
-      expect(result).to eql('10')
+  describe 'fizzbuz 11' do
+    it 'return 11' do
+      result = @solver.fizzbuzz(11)
+      expect(result).to eql('11')
     end
   end
 end
