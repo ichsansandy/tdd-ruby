@@ -1,15 +1,13 @@
 class Solver
+  def factorial(_input)
+    nil
+  end
 
-    def factorial(input)
-        return nil
-    end
+  def reverse(_input)
+    nil
+  end
 
-    def reverse(input)
-        return nil
-    end
-
-    def fizzbuzz(input)
-        return nil
-    end
-
+  def fizzbuzz(_input)
+    nil
+  end
 end
