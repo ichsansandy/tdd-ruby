@@ -48,6 +48,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **Built using Ruby**
+- **Rspec test cases using TDD**
+- **A Solver Class**
+- **Create a method called factorial that takes one argument, an integer N, and returns the factorial for that number in Solver Class**
+- **Create a method called reverse that takes one argument, a string word, and returns word reversed (e.g. if word is "hello" it returns "olleh").**
+- **Create a method called fizzbuzz**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
